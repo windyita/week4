@@ -1,17 +1,6 @@
 /* Put your style rules here */
-body { font-family: Arial; }
+h3 { font-family: 'Permanent Marker', cursive; }
 
-@media (max-width: 800px) {
-  p { display: none; }
-}
-.important { color: blue; }
-.note { font-style: italic; }
+li:nth-child(2n) { color: red; }
 
-body  { border: solid 4px green; padding: 24px; }
-
-/*h3 { float: right; }*/
-
-/*div li { color: blue; }*/
-/*a { background-color: yellow; text-decoration: none; cursor: default; }*/
-
-/*a { display: none; }*/
+h3 i { padding: 6px; color: green; font-weight: bold; }

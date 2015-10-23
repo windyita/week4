@@ -1,1 +1,17 @@
 /* Put your style rules here */
+body { font-family: Arial; }
+
+@media (max-width: 800px) {
+  p { display: none; }
+}
+.important { color: blue; }
+.note { font-style: italic; }
+
+body  { border: solid 4px green; padding: 24px; }
+
+/*h3 { float: right; }*/
+
+/*div li { color: blue; }*/
+/*a { background-color: yellow; text-decoration: none; cursor: default; }*/
+
+/*a { display: none; }*/

@@ -1,1 +1,6 @@
 /* Put your style rules here */
+h3 { font-family: 'Permanent Marker', cursive; }
+
+li:nth-child(2n) { color: red; }
+
+h3 i { padding: 6px; color: green; font-weight: bold; }
